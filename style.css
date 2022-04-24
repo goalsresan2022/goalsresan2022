@@ -6,6 +6,10 @@ html {
   background-size: cover;
 }
 
+html * {
+  font-family: Awesome !important;
+}
+
 a {
   text-decoration: none;
 }
@@ -49,9 +53,10 @@ span {
   color: rgb(97, 251, 216);
 }
 
-.container {
-  position: absolute;
-  margin-left: 40%;
+.postcard {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .savoy {
@@ -66,7 +71,9 @@ span {
   width: 200px;
   border: 8px solid #fff;
   margin: 10% 15%;
-  transform: rotate(355deg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .address {
@@ -92,7 +99,7 @@ span {
   color: white;
   font-family: Awesome !important;
   font-style: italic;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .resa {
@@ -171,7 +178,6 @@ span {
   -ms-transform: rotate(2deg);
   transform: rotate(2deg);
   width: 300px;
-  font-family: 'The Girl Next Door', cursive; /*originally with brain flower font*/
   font-size: 1em;
 }
 .note:after {
@@ -191,8 +197,8 @@ span {
 .note2 {
 -webkit-box-shadow: #DDD 0px 1px 2px;
   position: relative;
-  background-color: #8cab99;
-  border-color: #8cab99;
+  background-color: #acc7db;
+  border-color: #acc7db;
   text-align: center;
   margin: 1.5em auto;
   padding: 1.5em 1em;
@@ -205,7 +211,6 @@ span {
   -ms-transform: rotate(2deg);
   transform: rotate(2deg);
   width: 300px;
-  font-family: 'The Girl Next Door', cursive; /*originally with brain flower font*/
   font-size: 1em;
 }
 .note2:after {
@@ -225,8 +230,8 @@ span {
 .note3 {
 -webkit-box-shadow: #DDD 0px 1px 2px;
   position: relative;
-  background-color: #ab8c9c;
-  border-color: #ab8c9c;
+  background-color: #e64b1d;
+  border-color: #e64b1d;
   text-align: center;
   margin: 1.5em auto;
   padding: 1.5em 1em;
@@ -239,7 +244,6 @@ span {
   -ms-transform: rotate(352deg);
   transform: rotate(352deg);
   width: 350px;
-  font-family: 'The Girl Next Door', cursive; /*originally with brain flower font*/
   font-size: 1em;
 }
 .note3:after {
@@ -273,7 +277,6 @@ span {
   -ms-transform: rotate(12deg);
   transform: rotate(12deg);
   width: 300px;
-  font-family: 'The Girl Next Door', cursive; /*originally with brain flower font*/
   font-size: 1em;
 }
 .note4:after {
