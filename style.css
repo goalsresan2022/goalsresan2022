@@ -45,12 +45,12 @@ span {
 }
 
 .button:hover {
-  color: rgb(97, 251, 216);
+  color: red;
   transform: scale(1.05);
 }
 
 .active {
-  color: rgb(97, 251, 216);
+  color: red;
 }
 
 .postcard {
